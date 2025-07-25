@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>使用 Telegram 登录</title>
+</head>
+<body>
+
+  <h2>欢迎使用 Telegram 登录</h2>
+
+  <!-- Telegram 登录按钮 -->
+  <script async src="https://core.telegram.org/widgets/login"
+          data-telegram-login="qwwe123bot"
+          data-size="large"
+          data-userpic="true"
+          data-request-access="write"
+          data-auth-url="https://12q.com/telegram-auth"
+          data-lang="zh_cn">
+  </script>
+
+</body>
+</html>
